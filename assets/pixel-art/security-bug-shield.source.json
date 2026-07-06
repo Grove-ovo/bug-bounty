@@ -1,0 +1,15 @@
+{
+  "title": "Security Bug Shield",
+  "issue": "#80",
+  "size": "64x64",
+  "palette": [
+    "#0b1220",
+    "#2a7fff",
+    "#1253b0",
+    "#7cffb2",
+    "#37b174",
+    "#ffec99"
+  ],
+  "description": "Original six-color pixel art icon combining a security shield and bug bounty motif.",
+  "pr_note": "Adds a six-color 64x64 shield-and-bug pixel icon for the landing page."
+}
