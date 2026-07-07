@@ -1,0 +1,4 @@
+Benchmark upload fixture for the FreelanceFlow API.
+
+This file is intentionally small and non-sensitive. It exercises the multipart
+upload path during API performance smoke runs.
