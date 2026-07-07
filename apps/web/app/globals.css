@@ -4,3 +4,78 @@ a { color: inherit; text-decoration: none; }
 main { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
 .card { background: #151c35; border: 1px solid #2a3765; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; }
 .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+button, input, select {
+  border: 1px solid #354571;
+  border-radius: 8px;
+  background: #0f1730;
+  color: #f2f5ff;
+  font: inherit;
+}
+button { cursor: pointer; padding: 0.45rem 0.7rem; }
+button:disabled { cursor: not-allowed; opacity: 0.5; }
+input, select { min-height: 2.25rem; padding: 0.35rem 0.5rem; width: 100%; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid #26345c; padding: 0.7rem; text-align: left; vertical-align: top; }
+small { color: #aab6df; }
+.admin-panel { display: grid; gap: 1rem; }
+.admin-hero, .admin-section-head, .pagination {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.admin-metrics {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.admin-metrics strong { display: block; font-size: 1.8rem; }
+.admin-metrics span { color: #aab6df; }
+.admin-filters {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin: 1rem 0;
+}
+.admin-filters label, .switch-row {
+  color: #cbd5ff;
+  display: grid;
+  gap: 0.35rem;
+}
+.admin-table-wrap { overflow-x: auto; }
+.queue-item {
+  border-top: 1px solid #26345c;
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.8rem 0;
+}
+.queue-item div { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.trust-bars { display: grid; gap: 0.6rem; }
+.trust-row {
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 80px 1fr 40px;
+}
+.trust-row meter { width: 100%; }
+.switch-row {
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  margin: 0.8rem 0;
+}
+.switch-row input { min-height: auto; width: auto; }
+.audit-list { display: grid; gap: 0.7rem; max-height: 320px; overflow: auto; }
+.audit-entry {
+  border-bottom: 1px solid #26345c;
+  display: grid;
+  gap: 0.2rem;
+  padding-bottom: 0.6rem;
+}
+.detail-panel, .state-note {
+  background: #101936;
+  border: 1px solid #26345c;
+  border-radius: 8px;
+  margin-top: 1rem;
+  padding: 0.8rem;
+}
+.state-note.error { border-color: #ad4667; color: #ffd6df; }
